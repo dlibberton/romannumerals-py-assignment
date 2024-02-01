@@ -14,3 +14,9 @@ def test_04_all_edge_cases():
     assert to_roman(944) == 'CMXLIV'
     
 # add tests to cover different edge cases
+
+def test_05_all_edge_cases():
+    assert to_roman(0) == "error"
+
+def test_06_all_edge_cases():
+    assert to_roman("") == "error"
